@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18616DB91FE3E3F9008C3F71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DB81FE3E3F9008C3F71 /* AppDelegate.m */; };
+		18616DBC1FE3E3F9008C3F71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DBB1FE3E3F9008C3F71 /* ViewController.m */; };
+		18616DBF1FE3E3F9008C3F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18616DBD1FE3E3F9008C3F71 /* Main.storyboard */; };
+		18616DC11FE3E3F9008C3F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18616DC01FE3E3F9008C3F71 /* Assets.xcassets */; };
+		18616DC41FE3E3F9008C3F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18616DC21FE3E3F9008C3F71 /* LaunchScreen.storyboard */; };
+		18616DC71FE3E3FA008C3F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DC61FE3E3FA008C3F71 /* main.m */; };
+		18616DD11FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DD01FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.m */; };
+		18616DDC1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DDB1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.m */; };
+		18616DEB1FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.m in Sources */ = {isa = PBXBuildFile; fileRef = 18616DEA1FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18616DCD1FE3E3FA008C3F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18616DAC1FE3E3F8008C3F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18616DB31FE3E3F9008C3F71;
+			remoteInfo = ChangeLineSpaceForLaber;
+		};
+		18616DD81FE3E3FA008C3F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18616DAC1FE3E3F8008C3F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18616DB31FE3E3F9008C3F71;
+			remoteInfo = ChangeLineSpaceForLaber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18616DB41FE3E3F9008C3F71 /* ChangeLineSpaceForLaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeLineSpaceForLaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18616DB71FE3E3F9008C3F71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18616DB81FE3E3F9008C3F71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18616DBA1FE3E3F9008C3F71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18616DBB1FE3E3F9008C3F71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18616DBE1FE3E3F9008C3F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18616DC01FE3E3F9008C3F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18616DC31FE3E3F9008C3F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18616DC51FE3E3F9008C3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18616DC61FE3E3FA008C3F71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18616DCC1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeLineSpaceForLaberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18616DD01FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeLineSpaceForLaberTests.m; sourceTree = "<group>"; };
+		18616DD21FE3E3FA008C3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18616DD71FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeLineSpaceForLaberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18616DDB1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeLineSpaceForLaberUITests.m; sourceTree = "<group>"; };
+		18616DDD1FE3E3FA008C3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18616DE91FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceForLaber.h"; sourceTree = "<group>"; };
+		18616DEA1FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceForLaber.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18616DB11FE3E3F9008C3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DC91FE3E3FA008C3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DD41FE3E3FA008C3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18616DAB1FE3E3F8008C3F71 = {
+			isa = PBXGroup;
+			children = (
+				18616DB61FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */,
+				18616DCF1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests */,
+				18616DDA1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests */,
+				18616DB51FE3E3F9008C3F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18616DB51FE3E3F9008C3F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18616DB41FE3E3F9008C3F71 /* ChangeLineSpaceForLaber.app */,
+				18616DCC1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.xctest */,
+				18616DD71FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18616DB61FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */ = {
+			isa = PBXGroup;
+			children = (
+				18616DE91FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.h */,
+				18616DEA1FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.m */,
+				18616DB71FE3E3F9008C3F71 /* AppDelegate.h */,
+				18616DB81FE3E3F9008C3F71 /* AppDelegate.m */,
+				18616DBA1FE3E3F9008C3F71 /* ViewController.h */,
+				18616DBB1FE3E3F9008C3F71 /* ViewController.m */,
+				18616DBD1FE3E3F9008C3F71 /* Main.storyboard */,
+				18616DC01FE3E3F9008C3F71 /* Assets.xcassets */,
+				18616DC21FE3E3F9008C3F71 /* LaunchScreen.storyboard */,
+				18616DC51FE3E3F9008C3F71 /* Info.plist */,
+				18616DC61FE3E3FA008C3F71 /* main.m */,
+			);
+			path = ChangeLineSpaceForLaber;
+			sourceTree = "<group>";
+		};
+		18616DCF1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests */ = {
+			isa = PBXGroup;
+			children = (
+				18616DD01FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.m */,
+				18616DD21FE3E3FA008C3F71 /* Info.plist */,
+			);
+			path = ChangeLineSpaceForLaberTests;
+			sourceTree = "<group>";
+		};
+		18616DDA1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18616DDB1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.m */,
+				18616DDD1FE3E3FA008C3F71 /* Info.plist */,
+			);
+			path = ChangeLineSpaceForLaberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18616DB31FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18616DE01FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaber" */;
+			buildPhases = (
+				18616DB01FE3E3F9008C3F71 /* Sources */,
+				18616DB11FE3E3F9008C3F71 /* Frameworks */,
+				18616DB21FE3E3F9008C3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeLineSpaceForLaber;
+			productName = ChangeLineSpaceForLaber;
+			productReference = 18616DB41FE3E3F9008C3F71 /* ChangeLineSpaceForLaber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18616DCB1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18616DE31FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaberTests" */;
+			buildPhases = (
+				18616DC81FE3E3FA008C3F71 /* Sources */,
+				18616DC91FE3E3FA008C3F71 /* Frameworks */,
+				18616DCA1FE3E3FA008C3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18616DCE1FE3E3FA008C3F71 /* PBXTargetDependency */,
+			);
+			name = ChangeLineSpaceForLaberTests;
+			productName = ChangeLineSpaceForLaberTests;
+			productReference = 18616DCC1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18616DD61FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18616DE61FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaberUITests" */;
+			buildPhases = (
+				18616DD31FE3E3FA008C3F71 /* Sources */,
+				18616DD41FE3E3FA008C3F71 /* Frameworks */,
+				18616DD51FE3E3FA008C3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18616DD91FE3E3FA008C3F71 /* PBXTargetDependency */,
+			);
+			name = ChangeLineSpaceForLaberUITests;
+			productName = ChangeLineSpaceForLaberUITests;
+			productReference = 18616DD71FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18616DAC1FE3E3F8008C3F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zjbojin;
+				TargetAttributes = {
+					18616DB31FE3E3F9008C3F71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18616DCB1FE3E3FA008C3F71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18616DB31FE3E3F9008C3F71;
+					};
+					18616DD61FE3E3FA008C3F71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18616DB31FE3E3F9008C3F71;
+					};
+				};
+			};
+			buildConfigurationList = 18616DAF1FE3E3F8008C3F71 /* Build configuration list for PBXProject "ChangeLineSpaceForLaber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18616DAB1FE3E3F8008C3F71;
+			productRefGroup = 18616DB51FE3E3F9008C3F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18616DB31FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */,
+				18616DCB1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests */,
+				18616DD61FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18616DB21FE3E3F9008C3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18616DC41FE3E3F9008C3F71 /* LaunchScreen.storyboard in Resources */,
+				18616DC11FE3E3F9008C3F71 /* Assets.xcassets in Resources */,
+				18616DBF1FE3E3F9008C3F71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DCA1FE3E3FA008C3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DD51FE3E3FA008C3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18616DB01FE3E3F9008C3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18616DEB1FE3E422008C3F71 /* UILabel+ChangeLineSpaceForLaber.m in Sources */,
+				18616DBC1FE3E3F9008C3F71 /* ViewController.m in Sources */,
+				18616DC71FE3E3FA008C3F71 /* main.m in Sources */,
+				18616DB91FE3E3F9008C3F71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DC81FE3E3FA008C3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18616DD11FE3E3FA008C3F71 /* ChangeLineSpaceForLaberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18616DD31FE3E3FA008C3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18616DDC1FE3E3FA008C3F71 /* ChangeLineSpaceForLaberUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18616DCE1FE3E3FA008C3F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18616DB31FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */;
+			targetProxy = 18616DCD1FE3E3FA008C3F71 /* PBXContainerItemProxy */;
+		};
+		18616DD91FE3E3FA008C3F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18616DB31FE3E3F9008C3F71 /* ChangeLineSpaceForLaber */;
+			targetProxy = 18616DD81FE3E3FA008C3F71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18616DBD1FE3E3F9008C3F71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18616DBE1FE3E3F9008C3F71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18616DC21FE3E3F9008C3F71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18616DC31FE3E3F9008C3F71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18616DDE1FE3E3FA008C3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18616DDF1FE3E3FA008C3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18616DE11FE3E3FA008C3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = ChangeLineSpaceForLaber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18616DE21FE3E3FA008C3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = ChangeLineSpaceForLaber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18616DE41FE3E3FA008C3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeLineSpaceForLaberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeLineSpaceForLaber.app/ChangeLineSpaceForLaber";
+			};
+			name = Debug;
+		};
+		18616DE51FE3E3FA008C3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeLineSpaceForLaberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeLineSpaceForLaber.app/ChangeLineSpaceForLaber";
+			};
+			name = Release;
+		};
+		18616DE71FE3E3FA008C3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeLineSpaceForLaberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeLineSpaceForLaber;
+			};
+			name = Debug;
+		};
+		18616DE81FE3E3FA008C3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeLineSpaceForLaberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjbojin.ChangeLineSpaceForLaberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeLineSpaceForLaber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18616DAF1FE3E3F8008C3F71 /* Build configuration list for PBXProject "ChangeLineSpaceForLaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18616DDE1FE3E3FA008C3F71 /* Debug */,
+				18616DDF1FE3E3FA008C3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18616DE01FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18616DE11FE3E3FA008C3F71 /* Debug */,
+				18616DE21FE3E3FA008C3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18616DE31FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18616DE41FE3E3FA008C3F71 /* Debug */,
+				18616DE51FE3E3FA008C3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18616DE61FE3E3FA008C3F71 /* Build configuration list for PBXNativeTarget "ChangeLineSpaceForLaberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18616DE71FE3E3FA008C3F71 /* Debug */,
+				18616DE81FE3E3FA008C3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18616DAC1FE3E3F8008C3F71 /* Project object */;
+}
